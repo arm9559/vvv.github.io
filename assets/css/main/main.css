@@ -1,0 +1,1412 @@
+main {
+  height: 1800px;
+  position: relative;
+  top: 175px;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+main .main-child {
+  padding: 0px !important;
+  margin: 0px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .main-child .background-item {
+  background: url("../../../assets/images/main/background-for-white.png");
+  height: 976px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+main .main-child .background-item .background-white {
+  background: url("../../../assets/images/main/main_vector.png");
+  height: 976px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0px !important;
+  margin: 0px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+main .main-child .background-item .background-white .inner {
+  position: absolute;
+  top: 12.6953125vw;
+  width: 80%;
+  height: 54.9168900804vh;
+}
+main .main-child .background-item .background-white .inner b {
+  color: #4F71C4;
+}
+main .main-child .background-item .background-white .inner .inner-title {
+  width: 100%;
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.734375vw;
+  line-height: 3.90625vw;
+  color: #102231;
+}
+main .main-child .background-item .background-white .inner .inner-text {
+  margin-top: 1.5625vw;
+  width: 70%;
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3020833333vw;
+  line-height: 2.34375vw;
+  color: #4E565C;
+}
+main .main-child .background-item .background-white .inner .inner-button {
+  margin-top: 1rem;
+  width: 35.4166666667vw;
+  height: 10.7238605898vh;
+  background: #00BF90;
+  -webkit-box-shadow: 2px 4px 30px rgba(0, 191, 144, 0.3);
+          box-shadow: 2px 4px 30px rgba(0, 191, 144, 0.3);
+  border-radius: 38px;
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3020833333vw;
+  line-height: 24px;
+  color: #F8F8F8;
+}
+main .main-child .background-item .background-white .inner::before {
+  background-image: url("../../../assets/images/main/star-vector.png");
+  background-repeat: no-repeat;
+  width: 118.02px;
+  height: 10.54px;
+  background-size: 10.54px 118.02px;
+  background-size: cover;
+  position: absolute;
+  left: 45%;
+  top: -35%;
+  content: "";
+}
+main .main-child .background-item .background-white .inner::after {
+  background-image: url("../../../assets/images/main/planet-yellow.png");
+  background-repeat: no-repeat;
+  width: 136px;
+  height: 137px;
+  background-size: 166px 167px;
+  background-size: cover;
+  position: absolute;
+  left: 80%;
+  top: -38%;
+  content: "";
+}
+main .main-child .cosmo-people-container {
+  margin-left: -210px;
+  position: relative;
+  top: -212px;
+  width: 461.23px;
+  height: 461.23px;
+  z-index: 1;
+}
+main .main-child .cosmo-people-container .cosmo-people-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  padding: 1.6276041667vw;
+  width: 26.171875vw;
+  height: 98px;
+  top: -34px;
+  left: 3.2182291667vw !important;
+  background: #F8F8F8;
+  border-radius: 24px;
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #102231;
+}
+main .main-child .cosmo-people-container .cosmo-people-text p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+  width: 100%;
+}
+main .main-child .cosmo-people-container .cosmo-people-text img {
+  position: absolute;
+  top: 85%;
+  left: 65%;
+}
+main .main-child .background-white::after {
+  background-image: url("../../../assets/images/main/blue-planet.png");
+  background-repeat: no-repeat;
+  width: 222px;
+  height: 222px;
+  background-size: cover;
+  position: absolute;
+  left: 70%;
+  z-index: -1;
+  top: 500px;
+  content: "";
+}
+main .main-child .background-white::before {
+  background-image: url("../../../assets/images/main/star-vector.png");
+  background-repeat: no-repeat;
+  width: 118.02px;
+  height: 10.54px;
+  background-size: 10.54px 118.02px;
+  background-size: cover;
+  position: absolute;
+  left: 51%;
+  top: 70%;
+  content: "";
+}
+
+.main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0px !important;
+  padding: 0px !important;
+  position: relative;
+  margin-top: -285px !important;
+}
+
+@media (min-width: 1623px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-left: -20px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: 15px !important;
+  }
+}
+@media (min-width: 1700px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-left: -20px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: 25px !important;
+  }
+}
+@media (min-width: 1772px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-left: -20px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: 42px !important;
+  }
+}
+@media (min-width: 1802px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-left: -20px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: 62px !important;
+  }
+}
+@media (max-width: 1423px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-left: 24px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: -15px !important;
+  }
+}
+@media (max-width: 1408px) {
+  .main-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 0px !important;
+    padding: 0px !important;
+    position: relative;
+    margin-top: -505px !important;
+  }
+  .main-footer img {
+    height: 350px;
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 152px !important;
+    height: 152px !important;
+    background-size: 152px 152px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 450px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 70.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 70.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 60% !important;
+    content: "";
+  }
+}
+@media (max-width: 1297px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -35px !important;
+    margin-left: 36px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: -35px !important;
+  }
+}
+@media (max-width: 1255px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -45px !important;
+    margin-left: 36px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: -45px !important;
+  }
+}
+@media (max-width: 1218px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -45px !important;
+    margin-left: 36px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: -45px !important;
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 70% !important;
+    top: -50% !important;
+    content: "";
+  }
+}
+@media (max-width: 1234px) {
+  .main-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 0px !important;
+    padding: 0px !important;
+    position: relative;
+    margin-top: -605px !important;
+  }
+  .main-footer img {
+    height: 350px;
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 152px !important;
+    height: 152px !important;
+    background-size: 152px 152px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 400px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 70.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 70.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 55% !important;
+    content: "";
+  }
+}
+@media (max-width: 1113px) {
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 152px !important;
+    height: 152px !important;
+    background-size: 152px 152px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 350px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 70.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 70.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 50% !important;
+    content: "";
+  }
+}
+@media (max-width: 1081px) {
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -43% !important;
+    content: "";
+  }
+
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -75px !important;
+    margin-left: 36px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: -65px !important;
+  }
+}
+@media (max-width: 992px) {
+  .main-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 0px !important;
+    padding: 0px !important;
+    position: relative;
+    margin-top: -605px !important;
+  }
+  .main-footer img {
+    height: 250px;
+  }
+
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 55% !important;
+    top: -25% !important;
+    content: "";
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 350px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 43% !important;
+    content: "";
+  }
+}
+@media (max-width: 972px) {
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 70px !important;
+    height: 70px !important;
+    background-size: 70px 70px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -30% !important;
+    content: "";
+  }
+}
+@media (max-width: 955px) {
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 35% !important;
+    top: -35%;
+    content: "";
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 50% !important;
+    top: -48% !important;
+    content: "";
+  }
+
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -75px !important;
+    margin-left: 36px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: -65px !important;
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 320px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 40% !important;
+    content: "";
+  }
+}
+@media (max-width: 892px) {
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 70px !important;
+    height: 70px !important;
+    background-size: 70px 70px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -30% !important;
+    content: "";
+  }
+}
+@media (max-width: 880px) {
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 45%;
+    top: -35%;
+    content: "";
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -45% !important;
+    content: "";
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 280px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 38% !important;
+    content: "";
+  }
+
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -75px !important;
+    margin-left: 96px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: -15px !important;
+    margin-left: 75px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 250px;
+  }
+}
+@media (max-width: 797px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -75px !important;
+    margin-left: 76px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: -30px !important;
+  }
+}
+@media (max-width: 780px) {
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 32% !important;
+    top: -35%;
+    content: "";
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 80px !important;
+    height: 80px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60% !important;
+    top: -40% !important;
+    content: "";
+  }
+
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -55px !important;
+    margin-left: 76px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-top: -30px !important;
+  }
+}
+@media (max-width: 768px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -55px !important;
+    margin-left: 76px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-left: 95px !important;
+    margin-top: 1px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 200px !important;
+  }
+
+  .main-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 0px !important;
+    padding: 0px !important;
+    position: relative;
+    margin-top: -705px !important;
+  }
+  .main-footer img {
+    height: 150px;
+  }
+
+  .inner-button {
+    height: 5.7238605898vh !important;
+    margin-top: -5px !important;
+  }
+
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 45%;
+    top: -35%;
+    content: "";
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -38%;
+    content: "";
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 250px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 35% !important;
+    content: "";
+  }
+}
+@media (max-width: 732px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -55px !important;
+    margin-left: 76px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-left: 95px !important;
+    margin-top: -12px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 200px !important;
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px 50px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -28% !important;
+    content: "";
+  }
+}
+@media (max-width: 690px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -65px !important;
+    margin-left: 76px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-left: 95px !important;
+    margin-top: -22px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 200px !important;
+  }
+
+  .inner-button {
+    height: 5.7238605898vh !important;
+    margin-top: -5px !important;
+  }
+
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 45%;
+    top: -35%;
+    content: "";
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px 50px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -38%;
+    content: "";
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 200px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 30% !important;
+    content: "";
+  }
+}
+@media (max-width: 630px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -45px !important;
+    margin-left: 76px !important;
+    height: 50px !important;
+  }
+  .cosmo-people-container .cosmo-people-text img {
+    height: 15px;
+  }
+  .cosmo-people-container .cosmo-people-text p {
+    font-size: 8px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-left: 95px !important;
+    margin-top: -42px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 200px !important;
+  }
+}
+@media (max-width: 574px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -45px !important;
+    margin-left: 126px !important;
+    height: 50px !important;
+  }
+  .cosmo-people-container .cosmo-people-text img {
+    height: 15px;
+  }
+  .cosmo-people-container .cosmo-people-text p {
+    font-size: 8px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-left: 95px !important;
+    margin-top: -42px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 200px !important;
+  }
+}
+@media (max-width: 618px) {
+  .inner::before {
+    left: 25% !important;
+  }
+
+  .inner::after {
+    left: 45% !important;
+    top: -22% !important;
+    height: 55px !important;
+    width: 55px !important;
+  }
+}
+@media (max-width: 540px) {
+  .main-footer {
+    display: none;
+  }
+
+  article {
+    position: relative !important;
+    margin-top: -1055px !important;
+  }
+}
+@media (max-width: 534px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -45px !important;
+    margin-left: 126px !important;
+    height: 50px !important;
+  }
+  .cosmo-people-container .cosmo-people-text img {
+    height: 15px;
+  }
+  .cosmo-people-container .cosmo-people-text p {
+    font-size: 6px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-left: 95px !important;
+    margin-top: -62px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 200px !important;
+  }
+}
+@media (max-width: 575px) {
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 45%;
+    top: -35%;
+    content: "";
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px 50px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -38%;
+    content: "";
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 150px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 25% !important;
+    content: "";
+  }
+}
+@media (max-width: 575px) {
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 45%;
+    top: -35%;
+    content: "";
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px 50px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -38%;
+    content: "";
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 150px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 25% !important;
+    content: "";
+  }
+}
+@media (max-width: 504px) {
+  .inner-button {
+    height: 25px !important;
+  }
+}
+@media (max-width: 482px) {
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 45%;
+    top: -35%;
+    content: "";
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px 50px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -38%;
+    content: "";
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 150px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 25% !important;
+    content: "";
+  }
+}
+@media (max-width: 482px) {
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 45%;
+    top: -35%;
+    content: "";
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px 50px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -38%;
+    content: "";
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px 100px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 150px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 50.02px !important;
+    height: 5.54px !important;
+    background-size: 5.54px 50.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 25% !important;
+    content: "";
+  }
+}
+@media (max-width: 468px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -75px !important;
+    margin-left: 126px !important;
+    height: 50px !important;
+  }
+  .cosmo-people-container .cosmo-people-text img {
+    height: 15px;
+  }
+  .cosmo-people-container .cosmo-people-text p {
+    font-size: 6px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-left: 125px !important;
+    margin-top: -72px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 200px !important;
+  }
+}
+@media (max-width: 453px) {
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px 50px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 150px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 24.02px !important;
+    height: 3.54px !important;
+    background-size: 3.54px 24.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 19% !important;
+    content: "";
+  }
+}
+@media (max-width: 425px) {
+  .inner-text {
+    margin-top: -3.1625vw !important;
+  }
+
+  .inner-button {
+    position: relative;
+    top: -10px;
+  }
+
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -75px !important;
+    margin-left: 126px !important;
+    height: 50px !important;
+  }
+  .cosmo-people-container .cosmo-people-text img {
+    height: 15px;
+  }
+  .cosmo-people-container .cosmo-people-text p {
+    font-size: 6px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-left: 125px !important;
+    margin-top: -82px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 200px !important;
+  }
+}
+@media (max-width: 410px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -55px !important;
+    margin-left: 100px !important;
+    height: 50px !important;
+    width: 150px !important;
+  }
+  .cosmo-people-container .cosmo-people-text img {
+    height: 15px;
+  }
+  .cosmo-people-container .cosmo-people-text p {
+    font-size: 6px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-left: 125px !important;
+    margin-top: -52px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 150px !important;
+  }
+
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 24.02px !important;
+    height: 2.54px !important;
+    background-size: 2.54px 24.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 45%;
+    top: -20% !important;
+    content: "";
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px 50px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -25% !important;
+    content: "";
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px 50px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 130px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 26.02px !important;
+    height: 2.54px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 17% !important;
+    content: "";
+  }
+}
+@media (max-width: 375px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -55px !important;
+    margin-left: 120px !important;
+    height: 50px !important;
+    width: 130px !important;
+  }
+  .cosmo-people-container .cosmo-people-text img {
+    height: 13px;
+    margin-left: 15px;
+  }
+  .cosmo-people-container .cosmo-people-text p {
+    font-size: 6px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-left: 125px !important;
+    margin-top: -60px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 150px !important;
+  }
+}
+@media (max-width: 336px) {
+  .cosmo-people-container .cosmo-people-text {
+    margin-top: -55px !important;
+    margin-left: 120px !important;
+    height: 50px !important;
+    width: 130px !important;
+  }
+  .cosmo-people-container .cosmo-people-text img {
+    height: 13px;
+    margin-left: 15px;
+  }
+  .cosmo-people-container .cosmo-people-text p {
+    font-size: 6px !important;
+  }
+  .cosmo-people-container .cosmo-people {
+    margin-left: 125px !important;
+    margin-top: -65px !important;
+  }
+  .cosmo-people-container .cosmo-people img {
+    height: 150px !important;
+  }
+}
+@media (max-width: 370px) {
+  .inner::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 24.02px !important;
+    height: 2.54px !important;
+    background-size: 2.54px 24.02px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 45%;
+    top: -15% !important;
+    content: "";
+  }
+
+  .inner::after {
+    background-image: url("../../../assets/images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px 50px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 80%;
+    top: -25% !important;
+    content: "";
+  }
+
+  .background-white::after {
+    background-image: url("../../../assets/images/main/blue-planet.png");
+    background-repeat: no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px 50px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 60%;
+    z-index: -1;
+    top: 110px !important;
+    content: "";
+  }
+
+  .background-white::before {
+    background-image: url("../../../assets/images/main/star-vector.png");
+    background-repeat: no-repeat;
+    width: 26.02px !important;
+    height: 2.54px !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 61% !important;
+    top: 15% !important;
+    content: "";
+  }
+}

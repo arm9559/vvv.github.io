@@ -1,0 +1,251 @@
+.why-attend-in-class{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    .section-title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .why-attend-in-class-items{
+        margin-top: 48.7px;
+        width: 100%;
+        justify-content: center;
+        justify-content: space-evenly;
+        display: flex;
+        grid-gap: 236px;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        .star{
+            position: absolute;
+            top: 100%;
+            left: 35%;
+        }
+        .cosmo-people{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            button{
+                margin-top: 24px;
+                width: 352px;
+                height: 60px;
+                background: #4472CA;
+                box-shadow: 0px 10px 20px rgba(68, 114, 202, 0.3);
+                border-radius: 50px;
+                border: none;
+                color: white;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+        }
+        .cosmo-items{
+            .item{
+                width: 544px;
+                height: auto;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 12px;
+                display: flex;
+                margin: 23.3px;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                span{
+                    display: flex;
+                    align-items: flex-start;
+                    width: 448px;
+                    margin-top: 12px;
+                    p{
+                        font-family: 'Montserrat arm';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 36px;
+                        color: #EFEFEF;
+                    }
+                }
+            }
+            // .item:nth-child(odd){
+            //     margin-left: -55px;
+            // }
+        }
+    }
+}
+.wacs-top{
+    position: relative;
+    top: 305px;
+    left: -55px;
+    height: 8px;
+}
+.wacs-bottom{
+    position: relative;
+    top: -305px;
+    left: 655px;
+    height: 8px;
+}
+@media (min-width:1497px){
+    .cosmo-items{
+        .item:nth-child(2){
+            position: relative !important;
+            margin-left: 80px !important;
+        }
+        .item:nth-child(4){
+            position: relative !important;
+            width: 355px !important;
+            margin-left: 212px !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            span{
+                position: relative !important;
+                width: 320px !important;
+                left: 12px !important;
+                top: 8px;
+            }
+        }
+        .item:nth-child(5){
+            padding: 15px !important;
+            position: relative !important;
+            width: 380px !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: flex-start !important;
+            span{
+                position: relative !important;
+                top: 15px !important;
+                margin-top: 5px !important;
+                width: 320px !important;
+            }
+        }
+        .item{
+            width: auto;
+            height: 80px !important;
+            span{
+                padding: 0px !important;
+                width: auto !important;
+                display: flex;
+                grid-gap: 15px;
+                padding: 5px !important;
+                p{
+                    width: 448px !important;
+                    line-height: 30px !important;
+                }
+                p:nth-child(4){
+                    width: 310px;
+                }
+                p:nth-child(5){
+                    width: 310px;
+                }
+
+            }
+        }
+    }
+    .why-attend-in-class-items{
+        .cosmo-people{
+            img{
+                height: 420px;
+            }
+            button{
+                border: 1px solid red;
+                width: 302px;
+                height: 80px;
+            }
+        }
+    }
+}
+@media (max-width:1497px){
+    .why-attend-in-class{
+        width: 50%;
+        justify-content: center !important;
+        .col-1{
+            position: relative;
+            top: -405px;
+        }
+        .why-attend-in-class-child{
+            justify-content: center !important;
+        }
+        .cosmo-items{
+            display: flex;
+            flex-direction: column;
+            grid-gap: 25px;
+            margin-top: -164px !important;
+        }
+        .item{
+            margin: 0px !important;
+            grid-gap: 5px !important;
+            width: 85.416666666666664vw !important;
+            height: 156px !important;
+            padding: 15px !important;
+            span{
+                display: flex !important;
+                flex-direction: column;
+                text-align: center;
+                align-items: center !important;
+                justify-content: space-between !important;
+                width: 100% !important;
+            }
+        }
+        .item:nth-child(even){
+            margin-left: 0px !important;
+        }
+    }
+}
+@media (max-width:1310px){
+    .why-attend-in-class{
+        position: relative !important;
+        top: 150px !important;
+    }
+}
+@media (max-width:769px){
+    .why-attend-in-class{
+        position: relative !important;
+        top: -150px !important;
+    }
+    .cosmo-people{
+        img{
+            height: 375px !important;
+        }
+        button{
+            height: 55px !important;
+        }
+    }
+}
+@media (max-width:453px){
+    .why-attend-in-class{
+        position: relative !important;
+        top: -380px !important;
+        .why-attend-in-class-child{
+            margin-top: 65px;
+        }
+    }
+}
+@media (max-width:450px){
+    .cosmo-people{
+        img{
+            height: 375px !important;
+        }
+        button{
+            width: 205px !important;
+            height: 55px !important;
+            font-size: 12px !important;
+        }
+    }
+}
+@media (max-width:381px){
+    .cosmo-items{
+        span{
+            img{
+                margin-top: 12px;
+                height: 30px !important;
+            }
+        }
+    }
+}
